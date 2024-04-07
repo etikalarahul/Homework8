@@ -30,7 +30,7 @@ jobs:
   build-and-push-docker:
     needs: test
     runs-on: ubuntu-latest
-    environment: 'docker build and push'
+    environment: 'docker_publish'
     steps:
       - uses: actions/checkout@v4
       
